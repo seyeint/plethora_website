@@ -1,4 +1,5 @@
 import React from 'react';
+import { Github, Linkedin, Mail } from 'lucide-react';
 
 function AboutMe() {
   return (
@@ -15,9 +16,15 @@ function AboutMe() {
             <p>When I'm not printing, you can find me getting the best haircut.</p>
           </div>
           <div className="about-me-links">
-            <a href="https://github.com/seyeint" target="_blank" rel="noopener noreferrer">GitHub</a>
-            <a href="https://www.linkedin.com/in/josevaleferreira/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-            <a href="mailto:jpmrvf@gmail.com">Email</a>
+            <a href="https://github.com/seyeint" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+              <Github size={24} />
+            </a>
+            <a href="https://www.linkedin.com/in/josevaleferreira/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+              <Linkedin size={24} />
+            </a>
+            <a href="mailto:jpmrvf@gmail.com" aria-label="Email">
+              <Mail size={24} />
+            </a>
           </div>
           <div className="tile-corner bottom-left"></div>
           <div className="tile-corner bottom-right"></div>

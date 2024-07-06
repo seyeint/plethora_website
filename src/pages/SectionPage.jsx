@@ -32,7 +32,7 @@ const SectionPage = () => {
   return (
     <div className="section-page">
       <div className="sidebar">
-        <Link to="/" className="back-button">← Back to Sections</Link>
+        <Link to="/" className="back-button">← Sections</Link>
         <h2>{section.title}</h2>
         <input
           type="text"
@@ -56,7 +56,6 @@ const SectionPage = () => {
       <div className="content">
         {selectedBlog && (
           <>
-            <h1>{selectedBlog.title}</h1>
             <MarkdownRenderer contentPath={selectedBlog.content} />
           </>
         )}

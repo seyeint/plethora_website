@@ -674,3 +674,44 @@ body.dark .about-me-links a:hover {
     padding: 2rem;
   }
 }
+
+/* About me links */
+.about-me-links {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.about-me-links a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  height: 48px;
+  background-color: #094b00;
+  color: white;
+  text-decoration: none;
+  border-radius: 50%;
+  transition: all 0.3s ease;
+}
+
+.about-me-links a:hover {
+  background-color: #0a7300;
+  transform: translateY(-3px);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Dark mode styles */
+body.dark .about-me-links a {
+  background-color: #4CAF50;
+}
+
+body.dark .about-me-links a:hover {
+  background-color: #7bdb7b;
+}
+
+body.dark .about-me-links a {
+  background-color: #4CAF50;
+  color: #2a2a2a; /* Dark background color to ensure contrast */
+}
