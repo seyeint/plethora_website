@@ -4,6 +4,7 @@ import NavBar from './components/NavBar';
 import Home from './pages/Home';
 import AboutMe from './pages/AboutMe';
 import SectionPage from './pages/SectionPage';
+import Why from './pages/Why';
 import './styles.css';
 
 function App() {
@@ -12,7 +13,9 @@ function App() {
       <NavBar />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/about" element={<AboutMe />} />
+        <Route path="/who" element={<AboutMe />} />
+        <Route path="/what" element={<Home />} />
+        <Route path="/why" element={<Why />} />
         <Route path="/section/:sectionId" element={<SectionPage />} />
         <Route path="/section/:sectionId/:blogId" element={<SectionPage />} />
       </Routes>
