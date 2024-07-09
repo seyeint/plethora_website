@@ -38,7 +38,7 @@ const sectionObjects = [
       {
         id: "intro-to-stock-markets",
         title: "Introduction to Stock Markets",
-        content: 'Finance/intro-to-stock-markets.md'
+        content: 'Finance/test2.md'
       },
     ]
   },

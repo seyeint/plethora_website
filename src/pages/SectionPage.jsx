@@ -55,9 +55,7 @@ const SectionPage = () => {
       </div>
       <div className="content">
         {selectedBlog && (
-          <>
-            <MarkdownRenderer contentPath={selectedBlog.content} />
-          </>
+          <MarkdownRenderer contentPath={selectedBlog.content} />
         )}
       </div>
     </div>
