@@ -11,7 +11,7 @@ function Why() {
         transition={{ duration: 0.8 }}
       >
         <motion.img
-          src="why.jpg" // e path
+          src="figures/why.jpg" // path new
           alt="Why"
           className="why-image"
           initial={{ opacity: 0, scale: 0.9 }}
@@ -41,7 +41,7 @@ function Why() {
           animate={{ opacity: 1 }}
           transition={{ delay: 0.8, duration: 0.6 }}
         >
-          This site is designed for compartmentalizing both old and new content, focusing on topics related to my work, projects or general interests.
+          This site is designed for compartmentalizing both old and new notes, focusing on topics related to my work, projects or general interests.
         </motion.p>
 
         <motion.p
@@ -49,7 +49,7 @@ function Why() {
           animate={{ opacity: 1 }}
           transition={{ delay: 1, duration: 0.6 }}
         >
-          Sharing is caring, but unfortunately I'm doing this for myself.
+          All notes suffer from my point of view.
         </motion.p>
       </motion.div>
     </div>

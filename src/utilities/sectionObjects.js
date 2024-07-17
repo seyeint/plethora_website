@@ -13,19 +13,9 @@ const sectionObjects = [
     image: evolutionaryAlgorithmsImg,
     blogs: [
       {
-        id: "genetic-algorithms",
-        title: "Genetic Algorithms",
-        content: 'EvolutionaryAlgorithms/test.md'
-      },
-      {
-        id: "genetic-algorithms2",
-        title: "Genetic Algorithms2",
-        content: 'EvolutionaryAlgorithms/test.md'
-      },
-      {
-        id: "genetic-algorithms3",
-        title: "Genetic Algorithms3",
-        content: 'EvolutionaryAlgorithms/test.md'
+        id: "intro_ec",
+        title: "Introduction",
+        content: 'EvolutionaryAlgorithms/intro.md'
       },
     ]
   },
@@ -36,9 +26,9 @@ const sectionObjects = [
     image: financeImg,
     blogs: [
       {
-        id: "intro-to-stock-markets",
-        title: "Introduction to Stock Markets",
-        content: 'Finance/test2.md'
+        id: "intro_finance",
+        title: "Introduction",
+        content: 'Finance/intro.md'
       },
     ]
   },
@@ -62,9 +52,9 @@ const sectionObjects = [
     image: deepLearningImg,
     blogs: [
       {
-        id: "intro-to-deep-learning",
-        title: "Introduction to Deep Learning",
-        content: 'DeepLearning/intro-to-deep-learning.md'
+        id: "why-not-dl",
+        title: "Why not Deep Learning?",
+        content: 'DeepLearning/whynotdl.md'
       },
     ]
   },

@@ -152,13 +152,13 @@ body.dark pre {
   margin: 0;
   position: sticky;
   top: 0;
-  background: transparent;
+  background: white;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1); /* mexico */
-  z-index: 1000;
+  z-index: 9999;
 }
 
 body.dark .nav {
-  background: transparent; /* it's transparent in dark mode too */
+  background: #1e1e1e; /* it's transparent in dark mode too */
   box-shadow: 0 1px 3px rgba(255, 255, 255, 0.1);
 }
 
@@ -437,23 +437,106 @@ body.dark .section-item:hover {
   margin-top: 2rem;
 }
 
+.about-content h2 {
+  font-size: 1.5em;
+  color: #094b00;
+  margin-top: 1.5em;
+  margin-bottom: 0.5em;
+  font-weight: bold;
+}
+
+/* Styles for text links within paragraphs */
+.about-content p a {
+    color: #094b00;
+    text-decoration: none;
+    border-bottom: 1px solid #094b00;
+    transition: color 0.3s ease, border-bottom-color 0.3s ease;
+    cursor: pointer;
+}
+
+.about-content p a:hover,
+.about-content p a:focus {
+    color: #0c7d00; /* lighter green for hover state */
+    border-bottom-color: #0c7d00;
+}
+
+/* Icon link styles */
 .about-links a {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 48px;
-  height: 48px;
-  background-color: #094b00;
-  color: white;
-  text-decoration: none;
-  border-radius: 50%;
-  transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 48px;
+    height: 48px;
+    background-color: #094b00;
+    color: white;
+    text-decoration: none;
+    border-radius: 50%;
+    transition: all 0.3s ease;
+    border-bottom: none; /* Remove border from icon links */
 }
 
 .about-links a:hover {
-  background-color: #0a7300;
-  transform: translateY(-3px);
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: #0a7300;
+    transform: translateY(-3px);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Dark mode styles */
+body.dark .about-container {
+  background-color: #1e1e1e;
+}
+
+body.dark .about-content {
+  background-color: #2a2a2a;
+  color: #e0e0e0;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+body.dark .about-content p {
+  color: #e0e0e0;
+}
+
+body.dark .about-content h2 {
+  color: var(--accent-color);
+}
+
+body.dark .about-content p a {
+    color: var(--accent-color);
+    border-bottom-color: var(--accent-color);
+}
+
+body.dark .about-content p a:hover,
+body.dark .about-content p a:focus {
+    color: #b8e6a4;
+    border-bottom-color: #b8e6a4;
+}
+
+body.dark .about-links a {
+    background-color: var(--accent-color);
+    color: #2a2a2a;
+}
+
+body.dark .about-links a:hover {
+    background-color: #7bdb7b;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .about-container {
+    padding-top: 2rem;
+  }
+
+  .about-content {
+    padding: 2rem;
+  }
+
+  .about-content p {
+    font-size: 1rem;
+  }
+
+  .about-image {
+    max-height: 200px;
+  }
 }
 
 /* Why page styles */
@@ -554,6 +637,18 @@ body.dark .section-item:hover {
 .markdown-content img {
   max-width: 100%;
   box-sizing: content-box;
+}
+/* New styles for italic text and horizontal lines */
+.markdown-content em {
+  font-style: italic;
+}
+
+.markdown-content hr {
+  height: 0.05em;
+  padding: 0;
+  margin: 24px 0;
+  background-color: #e1e4e8;
+  border: 0;
 }
 
 /* Responsive styles */
