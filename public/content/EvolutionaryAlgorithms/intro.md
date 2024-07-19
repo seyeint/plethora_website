@@ -36,10 +36,50 @@ ___
 
 <br>
 
-### Examples of Problem Formulation:
+#### The King's Wine Cellar Problem
 
-1. **The King's Wine Cellar Problem**
+As a first example, we have a king's wine cellar that contains 1000 bottles of wine, one of which is poisoned.
+The king needs to find the poisoned bottle before a grand feast.
+
+He has prisoners who can taste the wine, but anyone who drinks the poisoned wine will die 24 hours later. 
+The feast is in 25 hours. How can the king minimize the number of prisoners who must die to identify the poisoned wine?
+
+<br>
+
+One prisoner per bottle formulation:
+- Assign one prisoner to each bottle.
+- Each prisoner drinks from their assigned bottle.
+- After 24 hours, identify the poisoned bottle by seeing which prisoner died.
+
+<br>
+
+Encoding formulation:
+- Assign a unique binary number to each wine bottle (from 0 to 999 in binary).
+- Use 10 prisoners (log2(1000) rounded up), each representing a bit in the binary number.
+- Each prisoner drinks from all bottles that have a 1 in their corresponding bit position.
+- After 24 hours, the pattern of which prisoners died reveals the binary number of the poisoned bottle.
+
+<br>
+
+<br>
+
+<div style="display: flex; justify-content: space-between;">
+  <img src="../../figures/pieces/wine.png" width="660" alt="wine" />
+</div>
+
+<br>
+
+This is a pretty aggressive problem formulation gap. 
+It is achieved by changing the topology of the problem through encoding (transforming the solution space).
+
+Highly successful formulations can sometimes be confused with solutions because they make the solution path almost trivially obvious. In this case, recognizing that encoding could be applied to the problem essentially navigates directly to the solution. The real intellectual leap was in understanding that such an encoding might help, and the subsequent navigation - finding the optimal encoding - becomes straightforward.
+
+Global minima can be extremely worse if one doesn't formulate the problem in the correct way. 
+
+
 2. **Airplane Wing Design Problem**
+
+
 3. **Evaluation Function Impact**
 
 (Detailed explanations and images for each example would be inserted here)
