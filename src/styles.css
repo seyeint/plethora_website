@@ -594,6 +594,7 @@ body.dark .about-links a:hover {
 }
 
 .markdown-content h1, .markdown-content h2, .markdown-content h3, .markdown-content h4, .markdown-content h5, .markdown-content h6 {
+  color: #094b00;
   margin-top: 24px;
   margin-bottom: 16px;
   font-weight: 600;
@@ -649,6 +650,11 @@ body.dark .about-links a:hover {
   margin: 24px 0;
   background-color: #e1e4e8;
   border: 0;
+}
+
+.markdown-content small {
+  font-size: 0.8em;
+  color: #667;
 }
 
 /* Responsive styles */

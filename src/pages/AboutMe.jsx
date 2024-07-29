@@ -26,7 +26,7 @@ function AboutMe() {
           transition={{ delay: 0.4, duration: 0.6 }}
         >
           <h2>Background</h2>
-          <p>My foundation in Computer Science, combined with a master's in Data Science, has equipped me with an understanding of algorithmic thinking and autonomy principles.</p>
+          <p>My foundation in Computer Engineering, combined with a master's in Data Science, has equipped me with an understanding of algorithmic thinking and autonomy principles.</p>
         </motion.section>
 
         <motion.section
