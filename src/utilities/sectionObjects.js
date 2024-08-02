@@ -40,7 +40,7 @@ const sectionObjects = [
     blogs: [
       {
         id: "logo-design-principles",
-        title: "Logo Design Principles",
+        title: "No_content_yet",
         content: 'Logos/logo-design-principles.md'
       },
     ]
@@ -66,8 +66,8 @@ const sectionObjects = [
     blogs: [
       {
         id: "principles-of-aesthetics",
-        title: "Principles of Aesthetics",
-        content: 'Aesthetics/principles-of-aesthetics.md'
+        title: "No_content_yet",
+        content: 'Aesthetics/No_content_yet.md'
       },
     ]
   },

@@ -155,11 +155,11 @@ The following plots show how adjusting the x and y coordinates of one specific c
 <br>
 
 The x and y axes represent adjustments to the x and y coordinates of a single control point.
-The z-axis (height) represents the performance score for either formulation.
+The z-axis represents the performance score for either formulation.
 
-It's important to note that these visualizations represent only a slice of the 12-dimensional optimization domain space. 
+It's important to note that these visualizations represent only a slice (that will change if any of the other dimensions change) of the 12-dimensional optimization domain space. 
 
-The differing landscapes illustrate how the two evaluation functions lead to different optimal solutions, highlighting the multi-objective nature of track design optimization.
+The differing landscapes illustrate how the two evaluation functions lead to different optimal solutions, highlighting the multi-objective nature of optimization.
 
 <br>
 
@@ -169,27 +169,28 @@ ___
 
 ### Navigation revisited & final thoughts:
 
-See, problem formulation ultimately shapes any problem topology that we tackle, and problems are typically way more complex and multidimensional than any examples. 
+See, problem formulation ultimately shapes any problem topology that we tackle, and problems are typically way more complex and multidimensional than any of the visited examples. 
 
 One does not need to be able to quantify and precisely define this formulation event to know that its ultimate representation is a shift in a topology.
 
-In more abstract problems, i.e. philosophical problems/modelling reality, formulation is connected with one's exposure and interpretations of ideas, personality and more... These are all variables that, when changed or introduced, bring novelty to our navigation process.
+In more abstract problems, i.e. philosophical problems/modelling reality, formulation is connected with one's exposure and interpretations of ideas, personality and more... These are all variables that, when changed or introduced, can bring novelty to our navigation process outcomes.
 
-A navigation process must be able to perceive fitness direction (relevance realization),  dealing with peaks and valleys, 
+In more concrete problems, i.e. deep learning modelling, one needs to navigate the loss surface that represents the high-dimensional weight space and the continuous error it originates in relationship to our targets. A solution is a point in the weight space that represents a single function (matrix composition) and hopefully it is good enough mimicking the real function.
+
+Formulation is the main focus of most of DL research. Methods like explicit L2 regularization, dropout, applying noise to weights or data, early stopping, data augmentation, ensembling or even architecture design decisions like residual connections, applying transformations/abstract feature engineering to the input like convolutions or making inputs attend to others are just ways of saying "let me just make some assumptions that might help you deal with all these peaks and valleys" to the actual navigation algorithm.
+
+SGD/ADAM can be though as an evolutionary algorithm that evolves a single point through continous gradient information (relevance realization).
 
 Going back to the context of computer science, one must create meta-heuristic algorithms that are able to deal with complexity, hopefully being able to progress through local optimas and reaching global optima(s). 
 
+A navigation process must be able to perceive fitness (relevance realization) and deal with peaks and valleys that might be local optimas. The latter is very hard to deal with in the limit without extensive search. It's not like one has a map of a difficult problem, as a map implies a priori presence of solutions, and difficult problems are continuous navigations of the unknown.
 
-
-So problem formulation optimizes problem navigation... what optimizes problem formulation itself?
-
-Problem navigation.
-
-Our model of human awareness is itself an evolved algorithm that deals with the problem of problem formulation, to then deal with the navigation of that problem. I would say that anything that tries to optimize [this process] is general intelligence.
-
-<br>
-
-topography vs topology
 ___
 
-<br>
+So problem formulation optimizes problem navigation... what optimizes problem formulation itself? 
+
+Problem navigation. Recursive.
+
+Human awareness is itself an evolved algorithm that deals with the problem of problem formulation, to then deal with the navigation of different problems. One could say that anything that optmizes this is fluid intelligence and/or creativity.
+
+
