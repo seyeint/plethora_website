@@ -71,6 +71,11 @@ const sectionObjects = [
         title: "Selected quality resources",
         content: 'DeepLearning/resources.md'
       },
+      {
+        id: "scalableEC",
+        title: "Scalable EC",
+        content: 'DeepLearning/scalable_ec.md'
+      },
     ]
   },
   {
