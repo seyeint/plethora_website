@@ -613,6 +613,33 @@ body.dark .about-links a:hover {
   padding-bottom: .3em;
 }
 
+.markdown-content a {
+  color: #094b00;
+  text-decoration: none;
+  border-bottom: 1px solid #094b00;
+}
+
+.markdown-content a:hover,
+.markdown-content a:focus {
+  color: #0c7d00;
+  border-bottom-color: #0c7d00;
+}
+
+body.dark .markdown-content a {
+  color: var(--accent-color);
+  border-bottom-color: var(--accent-color);
+}
+
+body.dark .markdown-content a:hover,
+body.dark .markdown-content a:focus {
+  color: #b8e6a4;
+  border-bottom-color: #b8e6a4;
+}
+
+.markdown-content a {
+  cursor: pointer;
+}
+
 .markdown-content p {
   margin-top: 0;
   margin-bottom: 16px;

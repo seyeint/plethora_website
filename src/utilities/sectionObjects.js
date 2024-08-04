@@ -49,9 +49,9 @@ const sectionObjects = [
     image: logosImg,
     blogs: [
       {
-        id: "logo-design-principles",
-        title: "No_content_yet",
-        content: 'Logos/logo-design-principles.md'
+        id: "intro_logos",
+        title: "Introduction",
+        content: 'Logos/intro.md'
       },
     ]
   },
@@ -80,9 +80,9 @@ const sectionObjects = [
     image: aestheticsImg,
     blogs: [
       {
-        id: "principles-of-aesthetics",
+        id: "aesthetics",
         title: "No_content_yet",
-        content: 'Aesthetics/No_content_yet.md'
+        content: 'Aesthetics/null.md'
       },
     ]
   },
@@ -94,8 +94,8 @@ const sectionObjects = [
     blogs: [
       {
         id: "intro-to-praedictio",
-        title: "Introduction to Prædictio",
-        content: 'Praedictio/intro-to-praedictio.md'
+        title: "No_content_yet",
+        content: 'Praedictio/null.md'
       },
     ]
   },

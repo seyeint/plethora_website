@@ -2,8 +2,7 @@
 
 <br>
 
-I'm not amused by finance. This section will focus on different concepts I find interesting and/or important, from different schools of thought.
-
+I'm not particularly amused by finance. This section will focus on different concepts I find interesting and/or important, from different schools of thought.
 
 As I see it, finance, particularly more on the side of capital allocation and investing, is a lot more about understanding out meta-problems than dealing with the problem as initially perceived by the general public. Nonetheless, grasping the rules of the game is probably essential for pivoting into different formulations.
 
