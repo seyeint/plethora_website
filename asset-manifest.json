@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.93a2429e.css",
+    "main.js": "/static/js/main.cc0903f1.js",
+    "static/media/next.jpg": "/static/media/next.d436e695c995679ad004.jpg",
+    "static/media/nns.jpg": "/static/media/nns.0eb188b5803d0a753a54.jpg",
+    "static/media/dogs.png": "/static/media/dogs.0457f96e5fe7fd40a4d1.png",
+    "static/media/whale.png": "/static/media/whale.74fdfc196364031f63b8.png",
+    "static/media/hmm.jpg": "/static/media/hmm.b902c08cd2a02ee48fec.jpg",
+    "static/media/statue.png": "/static/media/statue.1ca3c3df12332b395638.png",
+    "static/media/viridislogo3.png": "/static/media/viridislogo3.60194b024f450e867c09.png",
+    "static/media/Geist-Bold.woff": "/static/media/Geist-Bold.9b47f4f8d9c26f7c1eec.woff",
+    "static/media/Geist-Medium.woff": "/static/media/Geist-Medium.1993630567701d8dc54d.woff",
+    "static/media/Geist-SemiBold.woff": "/static/media/Geist-SemiBold.cb8dd1bc648a553465cb.woff",
+    "static/media/Geist-Bold.woff2": "/static/media/Geist-Bold.f05ae9735ee0220d9047.woff2",
+    "static/media/Geist-Medium.woff2": "/static/media/Geist-Medium.a30e010abbdf695b47e0.woff2",
+    "static/media/Geist-SemiBold.woff2": "/static/media/Geist-SemiBold.c7531cc0fd2bba703c8c.woff2",
+    "static/media/viridislogo.png": "/static/media/viridislogo.377fecc02b363ada49b1.png",
+    "index.html": "/index.html",
+    "main.93a2429e.css.map": "/static/css/main.93a2429e.css.map",
+    "main.cc0903f1.js.map": "/static/js/main.cc0903f1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.93a2429e.css",
+    "static/js/main.cc0903f1.js"
+  ]
+}
