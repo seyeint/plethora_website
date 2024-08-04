@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.ed44249d.css",
-    "main.js": "/static/js/main.34175b54.js",
+    "main.js": "/static/js/main.226609a2.js",
     "static/media/next.jpg": "/static/media/next.d436e695c995679ad004.jpg",
     "static/media/nns.jpg": "/static/media/nns.0eb188b5803d0a753a54.jpg",
     "static/media/dogs.png": "/static/media/dogs.0457f96e5fe7fd40a4d1.png",
@@ -18,10 +18,10 @@
     "static/media/viridislogo.png": "/static/media/viridislogo.377fecc02b363ada49b1.png",
     "index.html": "/index.html",
     "main.ed44249d.css.map": "/static/css/main.ed44249d.css.map",
-    "main.34175b54.js.map": "/static/js/main.34175b54.js.map"
+    "main.226609a2.js.map": "/static/js/main.226609a2.js.map"
   },
   "entrypoints": [
     "static/css/main.ed44249d.css",
-    "static/js/main.34175b54.js"
+    "static/js/main.226609a2.js"
   ]
 }
