@@ -6,22 +6,45 @@ import remarkGfm from 'remark-gfm';
 import { Prism as SyntaxHighlighter } from 'react-syntax-highlighter';
 import { tomorrow } from 'react-syntax-highlighter/dist/esm/styles/prism';
 
-const MarkdownRenderer = ({ contentPath }) => {
+const ContentRenderer = ({ contentPath }) => {
   const [content, setContent] = useState('');
+  const isPDF = contentPath.toLowerCase().endsWith('.pdf');
 
   useEffect(() => {
-    fetch(`/content/${contentPath}`)
-      .then(response => response.text())
-      .then(text => setContent(text));
-  }, [contentPath]);
+    if (!isPDF) {
+      fetch(`/content/${contentPath}`)
+        .then(response => response.text())
+        .then(text => setContent(text));
+    }
+  }, [contentPath, isPDF]);
 
-  return (
-    <div className="markdown-content">
-      <ReactMarkdown
-        rehypePlugins={[rehypeRaw, rehypeSanitize]}
-        remarkPlugins={[remarkGfm]}
-        components={{
-          code({node, inline, className, children, ...props}) {
+  if (isPDF) {
+    return (
+        <div className="pdf-content" style={{
+            height: 'calc(100vh - 100px)',
+            display: 'flex',
+            justifyContent: 'center',
+            alignItems: 'center'
+        }}>
+            <iframe
+                src={`/content/${contentPath}`}
+                width="77%"
+                height="100%"
+                style={{border: 'none'}}
+                title="PDF Viewer"
+                allowFullScreen
+            />
+        </div>
+    );
+  }
+
+    return (
+        <div className="markdown-content">
+            <ReactMarkdown
+                rehypePlugins={[rehypeRaw, rehypeSanitize]}
+                remarkPlugins={[remarkGfm]}
+                components={{
+                    code({node, inline, className, children, ...props}) {
             const match = /language-(\w+)/.exec(className || '')
             return !inline && match ? (
               <SyntaxHighlighter
@@ -37,6 +60,9 @@ const MarkdownRenderer = ({ contentPath }) => {
                 {children}
               </code>
             )
+          },
+          img({src, alt}) {
+            return <img src={src} alt={alt} style={{maxWidth: '100%'}} />;
           }
         }}
       >
@@ -46,4 +72,4 @@ const MarkdownRenderer = ({ contentPath }) => {
   );
 };
 
-export default MarkdownRenderer;
+export default ContentRenderer;

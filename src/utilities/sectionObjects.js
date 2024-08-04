@@ -17,6 +17,11 @@ const sectionObjects = [
         title: "Introduction",
         content: 'EvolutionaryAlgorithms/intro.md'
       },
+      {
+        id: "thesis",
+        title: "Thesis: Non-geometric pulse",
+        content: 'EvolutionaryAlgorithms/Thesis.pdf'
+      },
     ]
   },
   {
@@ -29,6 +34,11 @@ const sectionObjects = [
         id: "intro_finance",
         title: "Introduction",
         content: 'Finance/intro.md'
+      },
+      {
+        id: "playbook",
+        title: "Playbook",
+        content: 'Finance/play_log.md'
       },
     ]
   },
@@ -55,6 +65,11 @@ const sectionObjects = [
         id: "why-not-dl",
         title: "Why not Deep Learning?",
         content: 'DeepLearning/whynotdl.md'
+      },
+      {
+        id: "tools",
+        title: "Selected quality resources",
+        content: 'DeepLearning/resources.md'
       },
     ]
   },

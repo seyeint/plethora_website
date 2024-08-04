@@ -656,6 +656,63 @@ body.dark .about-links a:hover {
   font-size: 0.8em;
   color: #667;
 }
+.markdown-content table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-bottom: 1rem;
+  background-color: #f8f9fa;
+  border: 1px solid #dee2e6;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.markdown-content th,
+.markdown-content td {
+  padding: 0.75rem;
+  vertical-align: top;
+  border: 1px solid #dee2e6;
+}
+
+.markdown-content thead th {
+  vertical-align: bottom;
+  background-color: #e9ecef;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #094b00;
+}
+
+.markdown-content tbody tr:nth-of-type(even) {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+.markdown-content tbody tr:hover {
+  background-color: rgba(0, 0, 0, 0.075);
+}
+
+/* Dark mode styles for tables */
+body.dark .markdown-content table {
+  background-color: #2a2a2a;
+  border-color: #444;
+}
+
+body.dark .markdown-content th,
+body.dark .markdown-content td {
+  border-color: #444;
+  color: #e0e0e0;
+}
+
+body.dark .markdown-content thead th {
+  background-color: #333;
+  color: var(--accent-color);
+}
+
+body.dark .markdown-content tbody tr:nth-of-type(even) {
+  background-color: rgba(255, 255, 255, 0.05);
+}
+
+body.dark .markdown-content tbody tr:hover {
+  background-color: rgba(255, 255, 255, 0.075);
+}
 
 /* Responsive styles */
 @media screen and (max-width: 1250px) {

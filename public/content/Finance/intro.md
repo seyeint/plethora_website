@@ -11,11 +11,11 @@ My interests span both ends of the spectrum.
 
 On one end, extreme macro scale and high levels of abstraction, such as understanding why things happen and how they can trigger cascades of events in the financial world (e.g., global liquidity cycles, debt refinancing engineering, or even jubilee). 
 
-On the other end, the extreme micro scale, employing a quantitative approach to identify and exploit anomalies in historical and continuous asset data.
+On the other end, the extreme microscale, employing a quantitative approach to identify and exploit anomalies in historical and continuous asset data.
 
 <br>
 
-No asset class nor timeframe preferences. No praising mammon. 
+No asset class nor timeframe preferences. No deification of riches. 
 
 The objective is to be on the loser's opposite side of the trade. 
 
