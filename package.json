@@ -2,7 +2,7 @@
   "name": "viridis",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://pferreira.info",
+  "homepage": "www.pferreira.info",
   "dependencies": {
     "emailjs-com": "^3.2.0",
     "framer-motion": "^11.2.13",

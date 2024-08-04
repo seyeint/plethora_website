@@ -22,6 +22,11 @@ const sectionObjects = [
         title: "Thesis: Non-geometric pulse",
         content: 'EvolutionaryAlgorithms/Thesis.pdf'
       },
+      {
+        id: "scalableEC",
+        title: "Scalable EC",
+        content: 'EvolutionaryAlgorithms/scalable_ec.md'
+      },
     ]
   },
   {
@@ -70,11 +75,6 @@ const sectionObjects = [
         id: "tools",
         title: "Selected quality resources",
         content: 'DeepLearning/resources.md'
-      },
-      {
-        id: "scalableEC",
-        title: "Scalable EC",
-        content: 'DeepLearning/scalable_ec.md'
       },
     ]
   },
