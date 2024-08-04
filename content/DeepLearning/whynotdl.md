@@ -12,13 +12,13 @@ Although this section will focus on deep learning, I want to (maybe superficiall
 
 ### On irregular patterns
 
-Neural networks are biased towards smooth continuous functions due to their structure and activation functions (even with those who attempt to mitigate this), while decision trees split data into regions, represent piece-wise constant functions. This is important when learning irregular patterns in the target function.
+Neural networks are biased towards smooth continuous functions due to their structure and activation functions (even with those who attempt to mitigate this), while decision trees split data into regions, representing piece-wise constant functions. This is important when learning irregular patterns in the target function.
 <br><br>
 
 
 ### On irrelevant features
 
-Neural networks tend to be more affected by irrelevant variables due to their extraordinary capability to extract patterns out of noise. Decision tree methods are also influenced by uninformative features (especially if they're deep), but they are better at mitigating this issue by focusing on more informative features during the splitting process (where the computation of candidate nodes' gini impurity or variance takes place which naturally leads to ignoring less informative ones).
+Neural networks tend to be more affected by irrelevant variables due to their extraordinary capability to extract patterns out of noise. Decision tree methods are also influenced by uninformative features (especially if they're deep), but they are better at mitigating this issue by focusing on more informative features during the splitting process (where the computation of candidate nodes' gini impurity or variance takes place, which naturally leads to ignoring less informative ones).
 <br><br>
 
 

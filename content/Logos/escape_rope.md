@@ -1,41 +1,50 @@
-## Moving object segmentation overview & practical experiment 
+## Escape rope
+<br>
 
 <div style="display: flex; justify-content: space-between;">
-  <img src="https://github.com/seyeint/Vision_MOS/assets/36778187/45f09e71-d3b4-47a4-8ae4-081cc37c6a65" width="300"/>
-  <img src="https://github.com/seyeint/Vision_MOS/assets/36778187/9e0f8368-c221-40b0-bb0b-5d445eb37906" width="300"/>
+  <img src="https://pypi-camo.freetls.fastly.net/5c2b689dcf42509d74cf8220b6310e572ebb7858/68747470733a2f2f6769746c61622e7475652e6e6c2f32303034303336372f707962616f6261622f2d2f7261772f6d61696e2f696d616765732f747265652e706e67" width="700"/>
 </div>
 
-### Quick context on SAM
-Foundational models like SAM enable flexible image level segmentation across multiple scenarios. 
-Whether through boxes, text prompts and points (coordinates) or even authomatic general segmentation (grid-like point prompting), these vision models offer considerable freedom in their application.
+### Preface
 
-SAM is composed by a powerful **image encoder**, a **prompt encoder** and a **mask decoder**.
+Although this section will focus on deep learning, I want to (maybe superficially) address traditional machine learning methods (focusing on tree based methods) and talk about why they have not been dethroned at all, since people often conflate both machine learning and deep learning markets. They are not competing, for now, and it's not only about performance:
+<br><br>
 
-- The image encoder is essentially a MAE (Masked Autoencoder), trained on incomplete input images to predict the missing parts, thus maximizing its ability to capture general features.
-  This process creates a pre-trained Vision Transformer (ViT) that can then be fine-tuned for specific tasks, such as pixel classification, which is important for image segmentation.
+### On irregular patterns
 
-- The prompt encoder translates various types of prompts referenced above into positional encodings. These encodings are then merged with the image encoding through summation or concatenation.
-  More abstractly, this step focuses attention on specific locations within the image where segmentation is needed.
+Neural networks are biased towards smooth continuous functions due to their structure and activation functions (even with those who attempt to mitigate this), while decision trees split data into regions, represent piece-wise constant functions. This is important when learning irregular patterns in the target function.
+<br><br>
 
-- The mask decoder grabs the encoded prompt tokens + initialized learnable mask tokens + special tokens like IoU (Intersection over Union, a quality estimator) and creates mask predictions and their IoU estimations.
-  This creates a list of dictionaries, each holding information about its segmentation (a binary location map) and their quality metrics/other segmentation discriminator.
 
-<sub>Its also important to refer that this model is trained on 1B labelled masks, more than 11M images and also handles ambiguity by being trained with multiple possible mask predictions for a single example prompt.
-The main point of this is that just like one would not go for a full training pipeline of one's own LLM (disregarding the compute costs) due to the asymetry in data collection/annotation, vision is also starting to become foundational in the same way language is.
-Even some narrow use cases might work better through finetuning of foundational models than actual self training and ground up building of personal solutions.</sub>
+### On irrelevant features
 
-___
-### Experimenting with Flow as a SAM prompt
-In this specific experiment I'm trying have a solution that knows that the content I want to segment are only the moving parts (the opposite also can be done and useful, only static parts).
+Neural networks tend to be more affected by irrelevant variables due to their extraordinary capability to extract patterns out of noise. Decision tree methods are also influenced by uninformative features (especially if they're deep), but they are better at mitigating this issue by focusing on more informative features during the splitting process (where the computation of candidate nodes' gini impurity or variance takes place which naturally leads to ignoring less informative ones).
+<br><br>
 
-<sub>This works best with non-moving backgrounds or slow moving backgrounds. Another important question is why not simply use optical flow as the one and final segmentation solution and the reason is that the method itself is extremely incomplete as it deals only with noticing moving parts and can't really differentiate objects that lack boundaries and move at similar speeds (low relative speed difference).</sub>
 
-For that, optical flow (uses vector field of pixel motion and struggles when there's little relative motion) is used in order to produce an innitial segmentation of moving elements that can be integrated with SAM as direct input or as used in the example, working as a prompt (using its prediction MOS - moving object score - that specifices if prompts are moving or not) that is added to the image embeddings ("RGB based") in order to discover these moving parts by incorporating appearance information.
 
-___
-### Possible next steps
-Try to reverse the prompt, meaning segment only what's not moving for other purposes.
+### On rotational invariance
 
-Test and implement image or video on top of chosen masks, creating an edited video.
+The natural orientation of tabular data is important, referring to how features are organized and related in their original form. In tree based methods, this orientation is respected, as they split on individual features.
 
-Try to research a bit about parallelized inference as it would be nice to have this work for live applications such as streaming, where one can use the delay data (3 seconds or more) to pre-compute segmentation masks and obviously each frame can be inferenced independently of others, which is one of the ways I assume one can tackle the problem. Also test the inference speedups and quality with a greyscale channel input of one's images.
+In contrast, neural networks can produce the same output for different combinations of input features, potentially losing the significance of individual feature importances.
+
+This preservation of feature orientation directly enhances model interpretability. By respecting the original structure of the data, tree-based models allow us to trace decisions back to individual features or feature interactions. This makes it easier to understand which features are driving predictions and how they're being used, a crucial aspect of interpretability.
+
+Interpretability can be very important for decision-making. Sure, some traditional machine learning models are not exactly white boxes but on the grey spectrum, depending on one's skills to extract information from a model (train feature importance, test permutation importance, variable partial dependence and more). Deep learning models, however, are black boxes and the current literature on deep learning interpretability is insufficient to say the least.
+<br><br>
+
+
+
+### On data efficiency
+
+Tree based models often perform better with limited data, as they don't require large amounts of data to learn meaningful patterns. They are making decisions based on individual feature thresholds, which can be effective even with few samples. Neural networks struggle with small datasets because they're designed to try to learn complex, non-linear relationships across all features simultaneously. With limited data, they will overfitting a lot of the times or fail to capture true patterns, potentially modeling noise.
+<br><br>
+
+
+
+### On a data science pipeline
+
+As a human, one might not induce (a-priori problem knowledge) or deduce (initial distros/stats analytics) all useful column wise value nor inter-column non-linear relationships with the target.
+
+Some think of modelling as the last part of a machine learning process, but it's important to know that extracting insights from what the model actually learned can re-ignite EDA all over again.
