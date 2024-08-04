@@ -18,10 +18,12 @@ My objective is to always learn more by experiencing the market, regardless of m
 |------------|--------|----------|---------------|
 | 2023-11-23 | PYPL   | $53      | Spot Long     |
 | 2024-08-02 | INTC   | $21      | Call 26 07/25 |
+| 2024-08-04 | BTC    | $57k     | Spot Long     |
 | Soon       | UMG    | $19-19.5 | Soon          |
 | Soon       | ABNB   | $115-120 | Soon          |
 | Soon       | SNAP   | $8.5-9   | Soon          |
-| Soon       | BTC    | $57k     | Soon          |
+ <small> Latest update: 2024-04-08  </small>
+
 
 
 
