@@ -2,11 +2,11 @@
 
 <br>
 
-I'm not particularly amused by finance. This section will focus on different concepts I find interesting and/or important, from different schools of thought.
+I'm not particularly amused by finance, although I think of it as a beautiful decentralized complex and adaptive system. This section will focus on different concepts I find interesting and/or important, from different schools of thought.
 
 As I see it, finance, particularly more on the side of capital allocation and investing, is a lot more about understanding out meta-problems than dealing with the problem as initially perceived by the general public. Nonetheless, grasping the rules of the game is probably essential for pivoting into different formulations.
 
-My interests span both ends of the spectrum. 
+My interests span both ends of the spectrum:
 
 On one end, extreme macro scale and high levels of abstraction, such as understanding why things happen and how they can trigger cascades of events in the financial world (e.g., global liquidity cycles, debt refinancing engineering, or even jubilee). 
 

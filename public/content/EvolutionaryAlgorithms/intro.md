@@ -181,9 +181,9 @@ Formulation is the main focus of most of DL research. Methods like explicit L2 r
 
 SGD/ADAM can be though as an evolutionary algorithm that evolves a single point through continous gradient information (relevance realization).
 
-Going back to the context of computer science, one must create meta-heuristic algorithms that are able to deal with complexity, hopefully being able to progress through local optimas and reaching global optima(s). 
+Going back to the context of (more general) computer science, one must create meta-heuristic algorithms that are able to deal with complexity, hopefully being able to progress through local optimas and reaching global optima(s). 
 
-A navigation process must be able to perceive fitness (relevance realization) and deal with peaks and valleys that might be local optimas. The latter is very hard to deal with in the limit without extensive search. It's not like one has a map of a difficult problem, as a map implies a priori presence of solutions, and difficult problems are continuous navigations of the unknown.
+A navigation process must be able to perceive fitness (relevance realization) and deal with peaks and valleys that might be not be global optima(s). The latter is very hard to deal with in the limit without extensive search. It's not like one has a map of a difficult problem, as a map implies a priori presence of solutions, and difficult problems are continuous navigations of the unknown.
 
 ___
 
