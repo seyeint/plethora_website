@@ -2,7 +2,7 @@
 <br>
 
 <div style="display: flex; justify-content: space-between;">
-  <img src="https://pypi-camo.freetls.fastly.net/5c2b689dcf42509d74cf8220b6310e572ebb7858/68747470733a2f2f6769746c61622e7475652e6e6c2f32303034303336372f707962616f6261622f2d2f7261772f6d61696e2f696d616765732f747265652e706e67" width="700"/>
+  <img src="" width="700"/>
 </div>
 
 ### Preface

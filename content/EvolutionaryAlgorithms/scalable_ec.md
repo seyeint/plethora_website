@@ -4,7 +4,10 @@
 
 Much like the DL GPU acceleration age began around 2013 and completely changed the perspective on AI as it gradually became normalized. My view is that this is starting to occur with evolutionary computation.
 
-----
+<br>
+
+
+<br>
 
 Pre-2012: CPUs were primary for AI computation, then AlexNet came and around that time they were already leveraging GPU acceleration.
 
@@ -14,7 +17,11 @@ Pre-2012: CPUs were primary for AI computation, then AlexNet came and around tha
 
 2020 onward: Widespread adoption of GPU clusters.
 
+<br>
+
 ---
+
+<br>
 
 This enabled larger and more complex networks to be built and reduced training times, which lead to an increase in ease of use and market adoption and integration.
 
@@ -23,7 +30,7 @@ Most of this new infrastructure foundations can be easily used to take the field
 
 Examples of this already starting to take place are libraries like [EvoJax](https://cloud.google.com/blog/topics/developers-practitioners/evojax-bringing-power-neuroevolution-solve-your-problems) and frameworks like [EvoX](https://evox.readthedocs.io/en/latest/index.html).
 
-Although not extremely invested, I do have a small [project](https://github.com/seyeint/Pulse_EVOX) with the intent of porting my thesis algorithms into these new frameworks as they evolve, and I'm looking forward the future of EC. 
+Although not extremely invested as I must focus on my main objectives, I do have a small [project](https://github.com/seyeint/Pulse_EVOX) with the intent of porting my thesis algorithms into these new frameworks as they evolve, and I'm looking forward the future of EC. 
 
 In DL, we require label data (solutions) to create a model (function). In EC we require a function to create solutions. Both deal with combinatorial explosion, one is fully supervised, the other conceptually similar to reinforcement learning. There is a gap in future potencial between these.
 
