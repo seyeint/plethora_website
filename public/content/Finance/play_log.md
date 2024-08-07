@@ -23,11 +23,14 @@ My objective is to always evolving by experiencing the market, regardless of my 
 | 2024-08-04 | BTC    | $57k     | Spot Long     |
 | 2024-08-05 | BTC    | $51k     | Spot Long     |
 | 2024-08-05 | IOTA   | $0.115   | Spot Long     |
+| 2024-08-07 | ABNB   | $115-120 | Spot Long     |
+| Soon       | INTC   | $15-16   | Call 26 07/25 |
 | Soon       | UMG    | $19-19.5 | Soon          |
-| Soon       | ABNB   | $115-120 | Soon          |
-| Soon       | SNAP   | $8.5-9   | Soon          |
+| Soon       | ABNB   | $106-107 | Soon          |
+| Soon       | NVDA   | $80      | Soon          |
 | Soon       | BTC    | $46.5k   | Soon          |
- <small> Latest update: 2024-04-09  </small>
+
+ <small> Latest update: 2024-08-07  </small>
 
 
 

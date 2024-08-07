@@ -45,6 +45,11 @@ const sectionObjects = [
         title: "Playbook",
         content: 'Finance/play_log.md'
       },
+      {
+        id: "liquidity",
+        title: "On liquidity",
+        content: 'Finance/liquidity.md'
+      },
     ]
   },
   {

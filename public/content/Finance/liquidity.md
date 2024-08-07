@@ -1,23 +1,46 @@
-# Liquidity
+# On liquidity
 
-In the intricate dance of global finance, the concept of liquidity stands as a central pillar, dictating the rhythm of capital flows and shaping investment landscapes. Once tethered primarily to bond markets in the early 1980s, global liquidity has evolved into a complex, cyclical phenomenon that demands our attention.
+<br>
 
-At its core, this liquidity cycle spans roughly 5 to 6 years, a timeframe inexorably linked to the behemoth of debt refinancing. Picture this: a staggering $300+ trillion of global debt, with an average maturity of 5-6 years, translates to approximately $70 trillion seeking refinancing annually. This isn't merely a footnote in financial reports; it's a seismic force that transforms our markets into colossal debt refinancing mechanisms, potentially overshadowing even the impact of interest rates.
+In the world of global finance, the concept of liquidity stands as a central pillar, dictating the rhythm of capital flows and shaping investment landscapes. 
 
-But what drives this cycle? The answer lies partly in capital spending, with China playing a starring role. As interest rates ebb and flow, so too does the appetite for capital expenditure, creating ripples that traverse the global financial system.
+At its core, global liquidity is about the ease with which assets can be converted into cash or used for investments and transactions worldwide. It's the lifeblood of financial markets, influencing everything from stock prices to interest rates.
 
-We find ourselves in an era marked by monetary inflation, a stark departure from the days of 'tough' central bankers who wouldn't hesitate to throttle inflation out of the system. This paradigm shift has rendered traditional investment strategies, like the venerable 60-40 portfolio, potentially obsolete. In this new world, the allure of gold and its digital counterpart, cryptocurrency, grows stronger as hedges against the tide of monetary expansion.
+This global liquidity doesn't just exist in a vacuum; it moves in cycles, typically spanning about 5 to 6 years. These cycles are intrinsically tied to the massive machine of global debt refinancing. Consider this: there's approximately $300+ trillion of global debt out there, with an average maturity of 5-6 years. This (superficially) translates to $70 trillion seeking refinancing each year.
+It's this constant need for refinancing that turns financial markets into large debt recycling mechanisms, potentially even overshadowing the impact of interest rates themselves.
 
-Yet, as investors adapt to this new reality, governments face a delicate balancing act. They must sell their debt, a necessity that might compel them to hike interest rates aggressively, disciplining investors and steering capital back into bond markets. It's a high-stakes game of financial chess, where the moves of central banks and governments can rapidly alter the investment landscape.
+But what drives these cycles?
+A significant factor is capital spending, with China playing a main role globaly.
+As interest rates fluctuate, so does speculation and openness for capital expenditure, creating ripples that traverse the entire global financial system. This spending, in turn, affects liquidity as it determines how much capital is tied up in long-term projects versus freely flowing through financial markets.
 
-Intriguingly, there's a growing suspicion that the available float or liquidity isn't keeping pace with soaring asset prices. While hard data may be elusive, this intuition suggests a potential disconnect that savvy investors would do well to consider.
+---
 
-In this complex environment, Bitcoin emerges as a fascinating barometer of global liquidity. Its rise parallels the expansion of monetary supply, offering a real-time glimpse into the ebb and flow of global capital.
+We now find ourselves in an era marked by monetary inflation - to some degree the only thing that funds governments. This is a departure from the days of 'tough' central bankers who hesitated less to throttle inflation out of the system i.e. through massive interest rates. This paradigm shift has rendered traditional investment strategies, like the 60-40 portfolio, deprecated.
 
-As we navigate these choppy waters, one thing becomes clear: the era of monetary inflation is here, and it's reshaping the rules of the game. Both sides of the political aisle in the US, as evidenced by presidential debates, point towards the continuation of inflationary programs. This bipartisan convergence underscores the entrenchment of this new financial paradigm.
+In this new world, gold and cryptocurrency (BTC can be though as exponential gold, although this would be a superficial take) grow stronger as hedges against the tide of monetary expansion.
 
-For the discerning investor, these insights into global liquidity cycles and monetary policy trends are invaluable. They underscore the need for adaptability, the potential of alternative assets, and the importance of understanding the broader macroeconomic currents that shape our financial world.
+BUT, as individuals and companies adapt to this reality, governments face a balancing act. They must sell their debt, a necessity that might make them hike interest rates somewhat more agressively, eventually disciplining investors and steering capital back into their own assets i.e. treasuries/bonds. This has to be taken into account as a risk for going all in into 1 asset class even if it looks obvious. Game theory is on the table and most of us don't even get to decide moves.
 
-Yet, a word of caution: in this game of global finance, where the stakes are high and the players powerful, it's crucial to remember that most of us don't get to decide the moves. Game theory is at play, and the optimal strategy may not always be obvious. Diversification, therefore, remains a prudent approach, even when certain asset classes seem irresistibly attractive.
+In this complex environment, Bitcoin emerges as a great proxy measure of global liquidity. Its rise parallels the expansion of monetary supply, offering a real-time approximation of the flow of global capital. Although this might be true and not problematic currently, one would hope one day this relation gets decoupled, cementing the main digital assets as less speculative and more intrinsically valued.
 
-As we look to the future, one thing is certain: the investor who understands these liquidity cycles, who can adapt to the era of monetary inflation, and who remains vigilant to the complex interplay of global financial forces, will be best positioned to navigate the challenges and opportunities that lie ahead.
+Another curiosity is that both sides of the political aisle in the US, as evidenced by presidential debates, point towards the continuation of inflationary programs. This convergence keeps confirming this financial paradigm.
+
+It's worth considering where we currently stand. Some analysts project that global liquidity could peak around late 2025. This aligns with our understanding of the 5-6 year cycle, considering the massive liquidity injections of 2020-2021. If accurate, this projection suggests we're currently still in the building phase of the cycle.
+
+---
+
+Why is this important to take into account during allocation of capital? 
+
+Well, to me, it emphasizes that regardless of how good a chosen model of allocation is, one should constantly focus on maintaining and growing personal bankroll/generating continuous liquidity in order to keep participating in decision-making rather than always re-measuring every allocation after a decision is made. Short term causality is hard to obtain. 
+
+Although my personal style relies on model picks, I still think having a macro view of events is important in filtering some of these and preparing specific expectations regarding the vehicle of that investment (i.e. time horizons can influence option contracts choices).
+
+Eventually liquidity catches on and especially in the field of digital currencies, agressive cycles are really not related to the future potential of one's bet. 
+
+The quality of allocation/entry is collapsed into it's fundamental truth at the exit point. One has to be sure one is liquid enough to follow with the plan through apparent temporary success or failure.
+
+<br>
+
+<br>
+
+<small> I'm not an expert in the topic, this is just my understanding from reading and looking at different content throughout the years. I do prefer building algorithms but one needs to try and develop a mental model of the macro side.

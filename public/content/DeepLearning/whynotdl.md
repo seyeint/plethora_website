@@ -7,7 +7,7 @@
 
 ### Preface
 
-Although this section will focus on deep learning, I want to (maybe superficially) address traditional machine learning methods (focusing on tree based methods) and talk about why they have not been dethroned at all, since people often conflate both machine learning and deep learning markets. They are not competing, for now, and it's not only about performance:
+Although this section will focus on deep learning, I want to (maybe superficially) address traditional machine learning methods and talk about why they have not been dethroned at all, since people often conflate both machine learning and deep learning markets. They are not competing, for now, and it's not only about performance:
 <br><br>
 
 ### On irregular patterns
