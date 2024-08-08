@@ -1,50 +1,54 @@
 ## Escape rope
+
+<br>
+
+<div style="display: flex ; justify-content: space-between;">
+  <img src="../../figures/pieces/escape_rope1.png"  width="700"/>
+</div>
+
+<br>
+
+---
+
+<br>
+
+When I was around 7/8 years old I was playing Pokemon Leaf Green on my GBA SP and there was this cave called 'Rock Tunnel' and it was essentially a maze with multiple levels where one would need an ability called 'Flash' in order to light up one's surroundings, effectively being able to easily navigate and get to the other side. 
+
+As a kid, I had this strange way of playing where I didn't want my pokemons to faint although that not a problem at all since one can revive them.
+
+My english skills were almost non-existent back then, so I never understood the procedure on how to get Flash prior to entering the cave, although I think I knew it wasn't supposed to be that dark.
+
+I used to like doing these scale models of cities with old shoe boxes (art attack style) and I went to get some material. I started drawing and gluing some paper while going through the cave, always moving close to the cave's walls. 
+
+
+<br>
+
+---
+
 <br>
 
 <div style="display: flex; justify-content: space-between;">
-  <img src="" width="700"/>
+  <img src="../../figures/pieces/flash2.jpg" width="700"/>
 </div>
 
-### Preface
 
-Although this section will focus on deep learning, I want to (maybe superficially) address traditional machine learning methods (focusing on tree based methods) and talk about why they have not been dethroned at all, since people often conflate both machine learning and deep learning markets. They are not competing, for now, and it's not only about performance:
-<br><br>
+<br>
 
-### On irregular patterns
+---
 
-Neural networks are biased towards smooth continuous functions due to their structure and activation functions (even with those who attempt to mitigate this), while decision trees split data into regions, represent piece-wise constant functions. This is important when learning irregular patterns in the target function.
-<br><br>
+<br>
 
+My objective was to map out the cave's boundaries and other points of interest, preparing for the case where I made a mistake and/or need to stop and start over after healing my pokemons. This was also when I realized one could always escape any maze by just commmiting to connect to either side of the maze and moving alongside it. 
 
-### On irrelevant features
+The escape rope played a big role. With it, I would be able to go back to the beginning whenever I felt I needed to heal, not having to go back and potentially risk not being able to escape some combats and not compromising progress.
 
-Neural networks tend to be more affected by irrelevant variables due to their extraordinary capability to extract patterns out of noise. Decision tree methods are also influenced by uninformative features (especially if they're deep), but they are better at mitigating this issue by focusing on more informative features during the splitting process (where the computation of candidate nodes' gini impurity or variance takes place which naturally leads to ignoring less informative ones).
-<br><br>
+This escape rope can be seen a prior plateau, a prior saved state, a stable and structured region of the search space where one can effectively come back to and rest, reload and start the navigation process again.
 
+In practical terms, one's escape rope is the set of things one values the most. In a deep sense it's a place of familiarity. 
 
+I'm pretty sure the first time I thought of the escape rope like this was when I concluded that Jung's escape rope was probably stronger than Nietzsche's (which I might eventually touch on less superficially). But the theme is recurrent... the escape rope is there because it is present as a variable of one's mental model, regardless of the attention one gives to it. But the less attention one gives to it, the harder it is to find whenever needed because our mental models can stray away from that point.
 
-### On rotational invariance
-
-The natural orientation of tabular data is important, referring to how features are organized and related in their original form. In tree based methods, this orientation is respected, as they split on individual features.
-
-In contrast, neural networks can produce the same output for different combinations of input features, potentially losing the significance of individual feature importances.
-
-This preservation of feature orientation directly enhances model interpretability. By respecting the original structure of the data, tree-based models allow us to trace decisions back to individual features or feature interactions. This makes it easier to understand which features are driving predictions and how they're being used, a crucial aspect of interpretability.
-
-Interpretability can be very important for decision-making. Sure, some traditional machine learning models are not exactly white boxes but on the grey spectrum, depending on one's skills to extract information from a model (train feature importance, test permutation importance, variable partial dependence and more). Deep learning models, however, are black boxes and the current literature on deep learning interpretability is insufficient to say the least.
-<br><br>
+These thoughts give me some sort of reminder to be grateful for simple things around me, whether new friendships, old family relationships, my ambition and objectives, walking breaks from work... and so much more.
 
 
 
-### On data efficiency
-
-Tree based models often perform better with limited data, as they don't require large amounts of data to learn meaningful patterns. They are making decisions based on individual feature thresholds, which can be effective even with few samples. Neural networks struggle with small datasets because they're designed to try to learn complex, non-linear relationships across all features simultaneously. With limited data, they will overfitting a lot of the times or fail to capture true patterns, potentially modeling noise.
-<br><br>
-
-
-
-### On a data science pipeline
-
-As a human, one might not induce (a-priori problem knowledge) or deduce (initial distros/stats analytics) all useful column wise value nor inter-column non-linear relationships with the target.
-
-Some think of modelling as the last part of a machine learning process, but it's important to know that extracting insights from what the model actually learned can re-ignite EDA all over again.

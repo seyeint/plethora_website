@@ -63,6 +63,11 @@ const sectionObjects = [
         title: "Introduction",
         content: 'Logos/intro.md'
       },
+      {
+        id: "escape_rope",
+        title: "Escape Rope",
+        content: 'Logos/escape_rope.md'
+      },
     ]
   },
   {
