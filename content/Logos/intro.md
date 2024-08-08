@@ -4,7 +4,7 @@
 
 This section serves as a collection notes related to personal views/ideas. These are occasionally related to books I've read or digital content I've consumed. This section might suffer from lack of structure, maybe some outdated notes or even conflicting ideas.
 
-Back in 2018 I've started my hardcover book collection. It gives them a clean aesthetic and reinforces neutrality against possible cover bias that emerge from simple things like illustrations or colors. I like my books as my coffee.
+Back in 2018 I've started buying hardcover books. It gives them a clean aesthetic and reinforces neutrality against possible cover bias like illustrations or colors. I like my books as my coffee.
 
 Currently, my reading habits are modest, about one or two books a year. Yet, the value I extract from exploring the minds of others remains significant.
 
@@ -59,6 +59,6 @@ Philosophy ends up being a decentralized and watered-down version of teleology. 
 | Anti-Education             | Nietzsche             | Philosophy           | <small> Younger professor Nietzsche critiques conventional education - stifles creativity, individuality and critical thinking while promoting passive absortion of information, excessive structure and formalism.</small> |
 | Inheritance                | Sharon Moalem         | Science              | <small> Epigenetics - influencing our gene expression is caring for our future offspring, not only ourselves.</small>                                                                                                       |
 | Answer to Job              | Carl Jung             | Psychology           | <small> Jung, limited by his own human nature, tries nevertheless to psychoanalyse God through the lens of scripture. Courageous effort.</small>                                                                            |
-| Genius                     | Eysenck               | Psychology           | <small> Genius seen as a factor multiplication - creativity, personality, intelligence and eminency (mostly after death) - never only one of them nor summation.</small>                                                    | 
+| Genius                     | Eysenck               | Psychology           | <small> Genius seen as a factor multiplication - creativity, personality, intelligence and eminency (mostly after death) - never only one of them nor their summation.</small>                                              | 
 
 <small> No particular order. </small>

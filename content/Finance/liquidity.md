@@ -2,7 +2,7 @@
 
 <br>
 
-In the world of global finance, the concept of liquidity stands as a central pillar, dictating the rhythm of capital flows and shaping investment landscapes. 
+In the world of global finance, the concept of liquidity is central pillar that dictates the rhythm of capital flows and shapes investment landscapes. 
 
 At its core, global liquidity is about the ease with which assets can be converted into cash or used for investments and transactions worldwide. It's the lifeblood of financial markets, influencing everything from stock prices to interest rates.
 
@@ -43,4 +43,4 @@ The quality of allocation/entry is collapsed into it's fundamental truth at the 
 
 <br>
 
-<small> I'm not an expert in the topic, this is just my understanding from reading and looking at different content throughout the years. I do prefer building algorithms but one needs to try and develop a mental model of the macro side.
+<small> This is not the field of my expertise, this is just my understanding from reading different content and experiencing certain events throughout the years. I do prefer building algorithms but one needs to try and develop a mental model of the macro side.
