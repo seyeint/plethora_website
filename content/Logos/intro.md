@@ -13,7 +13,7 @@ Currently, my reading habits are modest, about one or two books a year. Yet, the
 ### On reading
 My approach to reading, especially genres like philosophy (although I also like technical/scientific literature), is rooted in skepticism — positive, yet critical. Here’s why:
 
-Firstly, reading can pose a risk to creativity and original thought. Although the stakes are be lower in the case of technical books and other genres, I'm not exactly keen on the idea of individuals absorbing other individual's views on reality, risking their own potential insights by adopting the mind of a philosopher.
+Firstly, reading can pose a risk to creativity and original thought. Although the stakes can be lower in the case of technical books and other genres, I'm not exactly keen on the idea of individuals absorbing other individual's views on reality, risking their own potential insights by adopting the mind of a philosopher.
 
 This happens frequently, and it's probably going to occur more and more, as individuals don't really have introspection moments and after reading a paragraph from a (possibly) superficial book, the probability of getting hooked on the feeling of agreement on certain insights and become tremendously biased towards the views of the author is increased.
 

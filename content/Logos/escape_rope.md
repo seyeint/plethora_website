@@ -14,7 +14,7 @@
 
 When I was around 7/8 years old I was playing Pokemon Leaf Green on my GBA SP and there was this cave called 'Rock Tunnel' and it was essentially a maze with multiple levels where one would need an ability called 'Flash' in order to light up one's surroundings, effectively being able to easily navigate and get to the other side. 
 
-As a kid, I had this strange way of playing where I didn't want my pokemons to faint although that not a problem at all since one can revive them.
+As a kid, I had this strange way of playing where I didn't want my pokemons to faint although that's not a problem at all since one can revive them.
 
 My english skills were almost non-existent back then, so I never understood the procedure on how to get Flash prior to entering the cave, although I think I knew it wasn't supposed to be that dark.
 
