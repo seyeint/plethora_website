@@ -41,7 +41,7 @@ tl;dr - Key objectives while reading:
 
 Although most of my opinion is depicted above, an addition even more specific to philosophy is that I don't think it stands as a good contender for telling individuals where to move but rather about how to move.
 
-Maybe I'm biased because I value the practical side of life more than the theoretical side, but I really think of philosophy as "that which continously fails" because societies always believed it would provide answers or definitive frameworks of thought. What it provides are moments of introspection and tools for various uses, but it doesn't funnel into a single answer at all. Its oppeness can be both its strength and limitation, depending on one'perspective.
+Maybe I'm biased because I value the practical side of life more than the theoretical side, but I really think of philosophy as "that which continously fails" because societies always believed it would provide answers or definitive frameworks of thought. What it provides are moments of introspection and tools for various uses, but it doesn't funnel into a single answer at all. Its oppeness can be both its strength and limitation, depending on one's perspective.
 
 Society would be stuck in narrow (and possibly authoritarian) loops if philosophy ever 'succeeded'... or maybe this is exactly what is happening - resembling a zeitgeist.
 
