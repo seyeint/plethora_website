@@ -45,7 +45,7 @@ Maybe I'm biased because I value the practical side of life more than the theore
 
 Society would be stuck in narrow (and possibly authoritarian) loops if philosophy ever 'succeeded'... or maybe this is exactly what is happening - resembling a zeitgeist.
 
-Philosophy ends up being a decentralized and watered-down version of teleology. Again, a strength or a limitation - it's all perspective.
+Philosophy ends up being a decentralized and watered-down version of theology. Again, a strength or a limitation - it's all perspective.
 
 <br>
 
